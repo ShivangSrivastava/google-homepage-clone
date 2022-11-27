@@ -1,0 +1,137 @@
+*{
+    margin:0;
+}
+
+body{
+    
+    margin:auto;
+    width:100vw;
+    color: #3c4043;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    text-align: center;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: 45px;
+    margin: 20px 20px;
+}
+
+.navbar-items svg,img{
+    opacity: 65%;
+    height:24px;
+}
+
+.navbar-items a{
+    
+    text-align: left;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #202124;
+    padding-bottom: 0;
+}
+.navbar-items a:hover{
+    text-decoration: underline;
+}
+
+.logo img{
+    height: 150px;
+}
+
+.inputbox{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(201, 201, 201);
+    border-width: 1px;
+    border-radius: 999px;
+    height: 44px;
+    max-width: 580px;
+    margin: auto;
+}
+
+input{
+    width: 100%;
+    border:none;
+    border-style: none;
+    outline: none;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+}
+.inputbox svg{
+    opacity: 65%;
+    height: 24px;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.inputbox img{
+    margin: 10px;
+    height: 24px;
+}
+
+.buttons{
+    height: 74px;
+    padding-top: 18px;
+}
+
+.buttons button{
+    background-color: #F8F9FA;
+    border: none;
+    color:#3c4043;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height:36px;
+    line-height: 27px;
+    min-width: 54px;
+}
+
+.language{
+    height:130px
+}
+.language a{
+    text-decoration: none;
+    margin: 2px;
+    color:#1a0dab;
+}
+
+.footer{
+    background-color: #F2F2F2;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 60px;
+}
+.left-align{
+    margin: 20px;
+    text-align: left;
+}
+.lower-footer .left-align {
+    float: left;
+}
+
+.lower-footer .right-align {
+    margin:20px;
+    float: right;
+} 
+.lower-footer a{
+text-decoration: none;
+margin: 0 8px;
+color:#3c4043;
+}
+.lower-footer a:hover{
+text-decoration: underline;
+
+}
+.lower-footer{
+background-color: #F2F2F2;
+
+}
